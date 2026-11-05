@@ -1,14 +1,78 @@
-@import url('../css/stylesheet.css');
+@import url('stylesheet.css');
 *{
     box-sizing: border-box;
 }
 body{
     margin: 0;
     padding: 0;
-    font-family: 'yekanBakh';
-    background-color: white;
+    font-family: 'yekanBakh' !important;
 }
 a{
     text-decoration: none;
-    font-family: '';
+    color: white;
+}
+/* =================
+header Start
+==================*/
+header{
+    margin-top: 25px;
+}
+.header_logo{
+    width: 60%;
+}
+.nav{
+    /* اگه ایتم منو اضافه کردی مارجین رو کم کن یا برش دار کلا */
+   margin-right: 10%; 
+}
+.nav-link{
+    font-family: 'yekanBakh';
+    margin: 0px 7px;
+}
+.header_help{
+    margin-left: 8%;
+    padding: 9.5px 23px;
+    border-left: 1.5px solid #e53947;
+}
+.header_help img{
+    margin-left: 5px;
+}
+.account_header img{
+    width: 32px;
+}
+/* =================
+header Start
+==================*/
+.hero_section{
+    background-image: url('../img/test.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    width: 100%;
+    margin-top: 30px;
+}
+.hero_title{
+    font-size: 66px;
+    font-weight: bold;
+    margin: 28px 0px;
+}
+.hero_desc{
+    width: 70%;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Yekan Bakh FaNum Hairline';
+}
+.hero_btn{
+    margin-top: 30px;
+}
+.btn{
+    font-size: 16px;
+    font-weight: bold;
+}
+.book{
+    margin-right: 10px;
+}
+.hero_robot{
+    margin-top: 40px;
+    width: 50%;
+    transform: scaleX(-1);
 }
