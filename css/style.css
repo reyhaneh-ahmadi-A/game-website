@@ -1,0 +1,207 @@
+@import url('stylesheet.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'yekanBakh' !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* =================
+header Start
+==================*/
+header {
+    margin-top: 25px;
+}
+
+.header_logo {
+    width: 60%;
+}
+
+.nav {
+    /* اگه ایتم منو اضافه کردی مارجین رو کم کن یا برش دار کلا */
+    margin-right: 10%;
+}
+
+.nav-link {
+    font-family: 'yekanBakh';
+    margin: 0px 7px;
+}
+
+.header_help {
+    margin-left: 8%;
+    padding: 9.5px 23px;
+    border-left: 1.5px solid #9b0f06;
+}
+
+.header_help img {
+    margin-left: 5px;
+}
+
+.account_header img {
+    width: 32px;
+}
+
+/* =================
+hero Start
+==================*/
+.hero_section {
+    background-image: url('../img/test.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.pages_section {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center top;
+    height: 350px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.hero_title {
+    font-size: 66px;
+    font-weight: bold;
+    margin: 28px 0px;
+}
+
+.hero_desc {
+    width: 70%;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Yekan Bakh FaNum Hairline';
+}
+
+.hero_btn {
+    margin-top: 30px;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.book {
+    margin-right: 10px;
+}
+
+.hero_robot {
+    margin-top: 40px;
+    width: 50%;
+    transform: scaleX(-1);
+}
+
+.about-border {
+    border: 2px solid #9b0f06;
+    border-radius: 10px;
+}
+
+.about-img {
+    width: 100%;
+    margin-top: 25px;
+    height: auto;
+    object-fit: contain;
+}
+
+.about-icon {
+    width: 80px;
+    height: 80px;
+
+}
+
+.about-btn {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Yekan Bakh FaNum Hairline'
+}
+
+/* =================
+footer Start
+==================*/
+.footer {
+    background: #080a0c;
+    color: white;
+    width: 100%;
+    border-bottom: 2px solid #222;
+    margin-top: 30px;
+}
+
+.contact_info {
+    border-bottom: 1px solid #aaa;
+}
+
+.footer_contact_icon {
+    width: 40px;
+    height: 40px;
+}
+
+.contact_content {
+    font-size: 16px;
+    color: #666;
+}
+
+.footer_column {
+    text-align: right;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column h4 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.footer_column a {
+    color: #888;
+    font-size: 14px;
+}
+
+.footer_column a:hover {
+    color: #9b0f06;
+}
+
+.newsletter {
+    display: flex;
+    border: 1px solid #555;
+    width: 250px;
+}
+
+.newsletter input {
+    direction: rtl;
+    background: #080a0c;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 11px;
+}
+
+.newsletter button {
+    background: #9b0f06;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: 50px;
+    color: #666;
+    font-size: 14px;
+}
