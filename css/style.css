@@ -248,3 +248,28 @@ footer Start
     color: #666;
     font-size: 14px;
 }
+/* =================
+About Page Start
+==================*/
+  .about-border {
+    border: 2px solid #9b0f06;
+    border-radius: 10px;
+}
+.about-img {
+    width: 100%;
+    margin-top: 25px;
+    height: auto;
+    object-fit: contain;
+}
+.about-icon {
+    width: 80px;
+    height: 80px;
+}
+.about-btn {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Yekan Bakh FaNum Hairline'
+}
