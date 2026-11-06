@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'yekan';
-    src: url('./YekanBakhFaNum-Light.eot');
-    src: url('./YekanBakhFaNum-Light.eot?#iefix') format('embedded-opentype'),
-        url('./YekanBakhFaNum-Light.woff') format('woff');
+    font-family: 'yekanBakh';
+    src: url('../fonts/YekanBakhFaNum-Light.eot');
+    src: url('../fonts/YekanBakhFaNum-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/YekanBakhFaNum-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -10,9 +10,9 @@
 
 @font-face {
     font-family: 'Yekan Bakh FaNum Hairline';
-    src: url('./YekanBakhFaNum-Hairline.eot');
-    src: url('./YekanBakhFaNum-Hairline.eot?#iefix') format('embedded-opentype'),
-        url('./YekanBakhFaNum-Hairline.woff') format('woff');
+    src: url('../fonts/YekanBakhFaNum-Hairline.eot');
+    src: url('../fonts/YekanBakhFaNum-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/YekanBakhFaNum-Hairline.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -20,9 +20,9 @@
 
 @font-face {
     font-family: 'yekan';
-    src: url('./webfotYekanBakhFaNum-Regular.eot');
-    src: url('./YekanBakhFaNum-Regular.eot?#iefix') format('embedded-opentype'),
-        url('./YekanBakhFaNum-Regular.woff') format('woff');
+    src: url('../fonts/webfotYekanBakhFaNum-Regular.eot');
+    src: url('../fonts/YekanBakhFaNum-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/YekanBakhFaNum-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -30,9 +30,9 @@
 
 @font-face {
     font-family: 'yekan';
-    src: url('./YekanBakhFaNum-Medium.eot');
-    src: url('./YekanBakhFaNum-Medium.eot?#iefix') format('embedded-opentype'),
-        url('./YekanBakhFaNum-Medium.woff') format('woff');
+    src: url('../fontsYekanBakhFaNum-Medium.eot');
+    src: url('../fontsYekanBakhFaNum-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fontsYekanBakhFaNum-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -40,9 +40,9 @@
 
 @font-face {
     font-family: 'Yekan Bakh FaNum Fat';
-    src: url('./YekanBakhFaNum-Fat.eot');
-    src: url('./YekanBakhFaNum-Fat.eot?#iefix') format('embedded-opentype'),
-        url('./YekanBakhFaNum-Fat.woff') format('woff');
+    src: url('../fontsYekanBakhFaNum-Fat.eot');
+    src: url('../fontsYekanBakhFaNum-Fat.eot?#iefix') format('embedded-opentype'),
+        url('../fontsYekanBakhFaNum-Fat.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -50,9 +50,9 @@
 
 @font-face {
     font-family: 'yekan';
-    src: url('./YekanBakhFaNum-Thin.eot');
-    src: url('./YekanBakhFaNum-Thin.eot?#iefix') format('embedded-opentype'),
-        url('./YekanBakhFaNum-Thin.woff') format('woff');
+    src: url('../fonts/YekanBakhFaNum-Thin.eot');
+    src: url('../fonts/YekanBakhFaNum-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/YekanBakhFaNum-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -60,9 +60,9 @@
 
 @font-face {
     font-family: 'yekan';
-    src: url('./YekanBakhFaNum-Bold.eot');
-    src: url('./YekanBakhFaNum-Bold.eot?#iefix') format('embedded-opentype'),
-        url('./YekanBakhFaNum-Bold.woff') format('woff');
+    src: url('../fonts/YekanBakhFaNum-Bold.eot');
+    src: url('../fonts/YekanBakhFaNum-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/YekanBakhFaNum-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -70,9 +70,9 @@
 
 @font-face {
     font-family: 'yekan';
-    src: url('./YekanBakhFaNum-Heavy.eot');
-    src: url('./YekanBakhFaNum-Heavy.eot?#iefix') format('embedded-opentype'),
-        url('./YekanBakhFaNum-Heavy.woff') format('woff');
+    src: url('../fonts/YekanBakhFaNum-Heavy.eot');
+    src: url('../fonts/YekanBakhFaNum-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/YekanBakhFaNum-Heavy.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
