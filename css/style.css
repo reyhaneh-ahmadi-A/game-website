@@ -167,7 +167,7 @@ tornoment Start
     padding: 10px 15px;
 }
 /* =================
-ablut Start
+about Start
 ==================*/
 .about_section{
     text-align: right;
@@ -179,6 +179,12 @@ ablut Start
 .about_desc{
     line-height: 25px;
     color: #666;
+}
+/*=================
+contact Start
+==================*/
+.form{
+    padding: 30px;
 }
 
 /* =================
