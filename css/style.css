@@ -1,133 +1,184 @@
 @import url('stylesheet.css');
-
-* {
+*{
     box-sizing: border-box;
 }
-
-body {
+body{
     margin: 0;
     padding: 0;
     font-family: 'yekanBakh' !important;
 }
-
-a {
+a{
     text-decoration: none;
     color: white;
 }
-
+/* =================
+COMMON CLASSES
+==================*/
+.btn_red{
+    background-color:#e53947 !important;
+}
+.m_top{
+    margin-top: 30px;
+}
+.section_title{
+    font-weight: bolder;
+    color: #e53947;
+}
 /* =================
 header Start
 ==================*/
-header {
+header{
     margin-top: 25px;
 }
-
-.header_logo {
+.header_logo{
     width: 60%;
 }
-
-.nav {
+.nav{
     /* اگه ایتم منو اضافه کردی مارجین رو کم کن یا برش دار کلا */
-    margin-right: 10%;
+   margin-right: 10%; 
 }
-
-.nav-link {
+.nav-link{
     font-family: 'yekanBakh';
     margin: 0px 7px;
 }
-
-.header_help {
+.header_help{
     margin-left: 8%;
     padding: 9.5px 23px;
-    border-left: 1.5px solid #9b0f06;
+    border-left: 1.5px solid #e53947;
 }
-
-.header_help img {
+.header_help img{
     margin-left: 5px;
 }
-
-.account_header img {
+.account_header img{
     width: 32px;
 }
-
 /* =================
 hero Start
 ==================*/
-.hero_section {
+.hero_section{
     background-image: url('../img/test.jpg');
     background-size: cover;
     background-position: center;
     min-height: 80vh;
     width: 100%;
-    margin-top: 30px;
 }
-
-.pages_section {
-    background-image: url('../img/background.jpg');
-    background-size: cover;
-    background-position: center top;
-    height: 350px;
-    width: 100%;
-    margin-top: 30px;
-}
-
-.hero_title {
+.hero_title{
     font-size: 66px;
     font-weight: bold;
     margin: 28px 0px;
 }
-
-.hero_desc {
+.hero_desc{
     width: 70%;
     font-size: 16px;
     line-height: 25px;
     font-family: 'Yekan Bakh FaNum Hairline';
 }
-
-.hero_btn {
+.hero_btn{
     margin-top: 30px;
 }
-
-.btn {
+.btn{
     font-size: 16px;
     font-weight: bold;
 }
-
-.book {
+.book{
     margin-right: 10px;
 }
-
-.hero_robot {
+.hero_robot{
     margin-top: 40px;
     width: 50%;
     transform: scaleX(-1);
 }
-
-.about-border {
-    border: 2px solid #9b0f06;
-    border-radius: 10px;
+/* =================
+device Start
+==================*/
+.device_section{
+    margin-top: 60px;
 }
-
-.about-img {
+.card{
     width: 100%;
-    margin-top: 25px;
-    height: auto;
-    object-fit: contain;
+    height: 480px;
 }
-
-.about-icon {
-    width: 80px;
-    height: 80px;
+.devices_card h5{
+    font-weight: bold;
+    padding: 10px;
+}
+.devices_card p{
+    color: #666;
+    font-size: 14px;
+}
+.devices_card small{
+    color: #e53947;
+    font-style: italic;
 
 }
-
-.about-btn {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: 'Yekan Bakh FaNum Hairline'
+.device_img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+    height: 290px;
+}
+/* =================
+booking Start
+==================*/
+.booking_section{
+   margin: 100px auto 50px auto; 
+}
+.book_img{
+    width: 100%;
+}
+.form_section_title{
+    text-align: right;
+    margin: 50px 0px;
+}
+/* =================
+tornoment Start
+==================*/
+.torno_card{
+    border: 1px solid #666;
+    border-radius: 18px;
+    margin-top: 15px;
+    box-shadow: rgba(125, 124, 124, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease;
+}
+.torno_card:hover{
+    border: 1px solid #e53947;
+    box-shadow: rgba(130, 21, 21, 0.35) 0px 5px 15px;
+}
+.torno_cup{
+    width: 20%;
+    padding: 20px 0px;
+}
+.time{
+    border-left: 1px solid #666;
+}
+.torno_time , .torno_gift{
+    margin-bottom: 10px;
+}
+.torno_time img{
+    width: 30px;
+}
+.time_content , .gift_content{
+    color: #aaa;
+}
+.torno_gift img{
+    width: 30px;
+}
+.torno_btn{
+    padding: 10px 15px;
+}
+/* =================
+ablut Start
+==================*/
+.about_section{
+    text-align: right;
+    margin-top: 100px;
+}
+.about_img{
+    width: 100%;
+}
+.about_desc{
+    line-height: 25px;
+    color: #666;
 }
 
 /* =================
@@ -138,50 +189,42 @@ footer Start
     color: white;
     width: 100%;
     border-bottom: 2px solid #222;
-    margin-top: 30px;
+    margin-top: 50px;
 }
-
-.contact_info {
+.contact_info{
     border-bottom: 1px solid #aaa;
 }
-
 .footer_contact_icon {
     width: 40px;
     height: 40px;
 }
-
 .contact_content {
     font-size: 16px;
     color: #666;
 }
 
-.footer_column {
+.footer_column{
     text-align: right;
     margin-top: 40px;
     display: flex;
     flex-direction: column;
 }
-
 .footer_column h4 {
     font-size: 14px;
     margin-bottom: 15px;
 }
-
 .footer_column a {
     color: #888;
     font-size: 14px;
 }
-
 .footer_column a:hover {
-    color: #9b0f06;
-}
-
+    color: #e53947;
+}   
 .newsletter {
     display: flex;
     border: 1px solid #555;
     width: 250px;
 }
-
 .newsletter input {
     direction: rtl;
     background: #080a0c;
@@ -194,7 +237,7 @@ footer Start
 }
 
 .newsletter button {
-    background: #9b0f06;
+    background: #e53947;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -204,4 +247,29 @@ footer Start
     margin-top: 50px;
     color: #666;
     font-size: 14px;
+}
+/* =================
+About Page Start
+==================*/
+  .about-border {
+    border: 2px solid #9b0f06;
+    border-radius: 10px;
+}
+.about-img {
+    width: 100%;
+    margin-top: 25px;
+    height: auto;
+    object-fit: contain;
+}
+.about-icon {
+    width: 80px;
+    height: 80px;
+}
+.about-btn {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Yekan Bakh FaNum Hairline'
 }
