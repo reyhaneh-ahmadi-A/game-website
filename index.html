@@ -45,7 +45,7 @@
                     <a href="#" class="header_help">
                         <img src="img/icons8-info.svg" alt=""> راهنمایی
                     </a>
-                    <button type="button" class="btn-solid theme-danger account_header">
+                    <button type="button" class="btn-solid theme-danger account_header btn_red">
                         <img src="img/icons8-test-account-64.png" alt="">
                         حساب کاربری
                     </button>
@@ -56,7 +56,7 @@
     <!-- =========================
          Hero section Start
         ===========================-->
-    <div class="hero_section">
+    <div class="hero_section m_top">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6">
@@ -67,7 +67,8 @@
                             و
                             تخفیف های شگفت انگیز ما را از دست ندهید .</h5>
                         <div class="hero_btn">
-                            <button type="button" class="btn-solid theme-danger btn-lg btn">شرکت در تورنومنت</button>
+                            <button type="button" class="btn-solid theme-danger btn-lg btn_red">شرکت در
+                                تورنومنت</button>
                             <button type="button" class="btn-outline theme-inverse btn-lg btn book">رزرو سانس</button>
                         </div>
                     </div>
@@ -78,7 +79,215 @@
             </div>
         </div>
     </div>
-
+    <!-- =========================
+         our devices
+        ===========================-->
+    <div class="container text-center device_section">
+        <h2 class="section_title">امکانات و دستگاه ها</h2>
+        <p class="section_desc">تجهیزات حرفه ای برای تجربه ای بی نقص</p>
+        <div class="row align-items-end devices m_top">
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body devices_card">
+                        <img src="img/device-ps.jpg" class="card-img device_img" alt="gaming pc">
+                        <h5 class="mt-2 mb-0">PlayStation 5</h5>
+                        <p class="card-text fg-2">تجربه بازی های نسل جدید با کیفیت 4k و تجربه ای جدید و هیجان انگیز</p>
+                        <small class="fg-3"><span>قیمت :</span> 130.000 / ساعت</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body devices_card">
+                        <img src="img/devices-vr.jpg" class="card-img device_img" alt="gaming pc">
+                        <h5 class="mt-2 mb-0">واقعیت مجازی</h5>
+                        <p class="card-text fg-2">غرق شدن کامل در فضای بازی و در دنیای مجازی تجربه ای جدید و هیجانی</p>
+                        <small class="fg-3"><span>قیمت :</span> 120.000 / ساعت</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body devices_card">
+                        <img src="img/device-pc.jpg" class="card-img device_img" alt="gaming pc">
+                        <h5 class="mt-2 mb-0">سیستم مناسب بازی</h5>
+                        <p class="card-text fg-2">سیستم های گیمینگ با کارت گرافیک بالا و مانیتور و مانیتور 144 هرتز </p>
+                        <small class="fg-3"><span>قیمت :</span> 100.000 / ساعت</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body devices_card">
+                        <img src="img/device-xbox.jpg" class="card-img device_img" alt="gaming pc">
+                        <h5 class="mt-2 mb-0">Xbox Series X</h5>
+                        <p class="card-text fg-2">قدرتمند ترین کنسول مایکروسافت با game pass و شرایط مطلوب</p>
+                        <small class="fg-3"><span>قیمت :</span> 80.000 / ساعت</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========================
+         booking section
+        ===========================-->
+    <div class="container text-center booking_section">
+        <div class="row align-items-start">
+            <div class="col-6">
+                <div class="form_section_title">
+                    <h2 class="section_title">
+                        رزرو آنلاین
+                    </h2>
+                    <p class="section_desc">
+                        سریع ، ساده و بدون تماس دستگاهت رو رزرو کن !
+                    </p>
+                </div>
+                <!-- booking form -->
+                <form class="form-field">
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="text" class="form-control" required placeholder="نام و نام خانوادگی">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="شماره تماس" required>
+                        </div>
+                    </div>
+                    <div class="row m_top">
+                        <div class="col-6">
+                            <select name="device_select" class="form-control" required>
+                                <option selected disabled>نوع دستگاه</option>
+                                <option>PS5</option>
+                                <option>Xbox Series X</option>
+                                <option>PC</option>
+                                <option>VR</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <input type="date" class="form-control datee" placeholder="">
+                        </div>
+                    </div>
+                    <div class="row m_top">
+                        <div class="col-6">
+                            <select name="device_select" class="form-control" required>
+                                <option selected disabled>ساعت شروع سانس</option>
+                                <option>16:00</option>
+                                <option>18:00</option>
+                                <option>20:00</option>
+                                <option>22:00</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <select name="device_select" class="form-control" required>
+                                <option selected disabled>مدت زمان بازی</option>
+                                <option>1 ساعت</option>
+                                <option>2 ساعت</option>
+                                <option>3 ساعت</option>
+                                <option>4 ساعت</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12 text-start m_top">
+                        <input type="checkbox" id="fieldCheck" class="check" />
+                        <label for="fieldCheck">تمایل به سفارش از منوی کافه دارم .</label>
+                    </div>
+                    <div class="row m_top">
+                        <div class="col-12 text-start">
+                            <button type="submit" class="btn-solid theme-danger">تایید رزرو</button>
+                            <button type="reset" class="btn-outline theme-inverse btn-lg book">بازنشانی اطلاعات</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6"><img src="img/book.jpg" alt="booking image" class="book_img"></div>
+        </div>
+    </div>
+    <!-- =========================
+         tornoments section
+        ===========================-->
+    <div class="container text-center">
+        <div class="row align-items-center torno_card">
+            <div class="col-3">
+                <img src="img/gold.png" alt="gold traple" class="torno_cup">
+            </div>
+            <div class="col-3">
+                <div class="time">
+                    <div class="torno_time"><img src="img/time-icon.png" alt="time icon"> زمان برگزاری</div>
+                    <div class="time_content">جممه 16 آبان | 20:00</div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="gift">
+                    <div class="torno_gift"><img src="img/gift-icon.png" alt="gift icon"> جایزه</div>
+                    <div class="gift_content">25.000.000 تومان</div>
+                </div>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn-outline theme-danger torno_btn">ثبت نام در تورنمنت</button>
+            </div>
+        </div>
+        <!-- silver -->
+        <div class="row align-items-center torno_card">
+            <div class="col-3">
+                <img src="img/silver.png" alt="gold traple" class="torno_cup">
+            </div>
+            <div class="col-3">
+                <div class="time">
+                    <div class="torno_time"><img src="img/time-icon.png" alt="time icon"> زمان برگزاری</div>
+                    <div class="time_content">شنبه 17 آبان | 20:00</div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="gift">
+                    <div class="torno_gift"><img src="img/gift-icon.png" alt="gift icon"> جایزه</div>
+                    <div class="gift_content">23.000.000 تومان</div>
+                </div>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn-outline theme-danger torno_btn">ثبت نام در تورنمنت</button>
+            </div>
+        </div>
+        <!-- bronze -->
+        <div class="row align-items-center torno_card">
+            <div class="col-3">
+                <img src="img/bronze.png" alt="gold traple" class="torno_cup">
+            </div>
+            <div class="col-3">
+                <div class="time">
+                    <div class="torno_time"><img src="img/time-icon.png" alt="time icon"> زمان برگزاری</div>
+                    <div class="time_content">یکشنبه 18 آبان | 22:00</div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="gift">
+                    <div class="torno_gift"><img src="img/gift-icon.png" alt="gift icon"> جایزه</div>
+                    <div class="gift_content">20.000.000 تومان</div>
+                </div>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn-outline theme-danger torno_btn">ثبت نام در تورنمنت</button>
+            </div>
+        </div>
+    </div>
+    <!-- =========================
+         about section
+        ===========================-->
+    <div class="container text-center about_section">
+        <div class="row align-items-center">
+            <div class="col-6">
+                <img src="img/about.jpg" alt="about" class="about_img">
+            </div>
+            <div class="col-6">
+                <h2 class="section_title">درباره ما</h2>
+                <h5 class="section_desc">در نکســورا شماحرف اول اید .</h5>
+                <p class="about_desc">ما در گیم‌نت تلاش می‌کنیم فضایی جذاب و متفاوت برای علاقه‌مندان به دنیای بازی‌های ویدیویی فراهم کنیم.
+                    هدف ما ارائه تجربه‌ای لذت‌بخش، باکیفیت و سرگرم‌کننده برای تمام گیمرهاست.
+                    از جدیدترین بازی‌ها گرفته تا رقابت‌های دوستانه و تجربه لحظاتی پر از هیجان، همه‌چیز اینجاست تا اوقات
+                    خوشی را برای شما رقم بزنیم.
+                    ماموریت ما ایجاد فضایی برای سرگرمی، رقابت، دوستی و تجربه دنیای بی‌پایان بازی‌هاست.</p>
+                    <button class="btn-subtle theme-inverse">بیشتر بدانید</button>
+            </div>
+        </div>
+    </div>
     <!-- =========================
          footer Start
         ===========================-->
