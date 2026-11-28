@@ -59,7 +59,7 @@
 }
 
 @font-face {
-    font-family: 'yekan';
+    font-family: 'yekan bold';
     src: url('../fonts/YekanBakhFaNum-Bold.eot');
     src: url('../fonts/YekanBakhFaNum-Bold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/YekanBakhFaNum-Bold.woff') format('woff');
@@ -69,7 +69,7 @@
 }
 
 @font-face {
-    font-family: 'yekan';
+    font-family: 'yekan heavy';
     src: url('../fonts/YekanBakhFaNum-Heavy.eot');
     src: url('../fonts/YekanBakhFaNum-Heavy.eot?#iefix') format('embedded-opentype'),
         url('../fonts/YekanBakhFaNum-Heavy.woff') format('woff');
